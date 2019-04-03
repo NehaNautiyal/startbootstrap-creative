@@ -161,13 +161,13 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: teal;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #d6370c;
+  color: fuchsia;
   text-decoration: underline;
 }
 
@@ -488,7 +488,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 50vh;
 }
 
 .img-thumbnail {
@@ -516,7 +516,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: plum;
   word-break: break-word;
 }
 
@@ -2610,14 +2610,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: fuchsia;
+  border-color: fuchsia;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: teal;
+  border-color: teal;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2627,15 +2627,15 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: fuchsia;
+  border-color: fuchsia;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ee3e0d;
-  border-color: #e23a0d;
+  background-color: fuchsia;
+  border-color: fuchsia;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -4385,7 +4385,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #f4623a;
+  background-color: purple;
 }
 
 .nav-fill .nav-item {
@@ -6909,7 +6909,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: purple !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10366,7 +10366,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: teal !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10567,7 +10567,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: teal;
 }
 
 hr.light {
@@ -10614,11 +10614,11 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: fuchsia;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: teal !important;
 }
 
 @media (min-width: 992px) {
@@ -10638,7 +10638,7 @@ hr.light {
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: fuchsia;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -10652,21 +10652,23 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: fuchsia;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: fuchsia;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
+  background: url("../img/colorful-polygonal-surface-waving-semless-loop-3d-render-abstract-smooth-kaleidoscopic-animation-low-poly-geometric-modern-background-full-hd-video_sxgzsbrde_thumbnail-full01.png");
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/colorful-polygonal-surface-waving-semless-loop-3d-render-abstract-smooth-kaleidoscopic-animation-low-poly-geometric-modern-background-full-hd-video_sxgzsbrde_thumbnail-full01.png"); */
+  background: url("../img/colorful-polygonal-surface-waving-semless-loop-3d-render-abstract-smooth-kaleidoscopic-animation-low-poly-geometric-modern-background-full-hd-video_sxgzsbrde_thumbnail-full01.png");
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/colorful-polygonal-surface-waving-semless-loop-3d-render-abstract-smooth-kaleidoscopic-animation-low-poly-geometric-modern-background-full-hd-video_sxgzsbrde_thumbnail-full01.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10728,7 +10730,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: purple;
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: center;
